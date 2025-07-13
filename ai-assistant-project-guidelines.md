@@ -153,3 +153,58 @@ This project utilizes two primary documentation files to provide comprehensive i
     * Follow the format: `#### Step [Number]: ALL CAPS ASSIGNMENT NAME - Brief Description` (e.g., `#### Step 24: NOTEPAD++ ASSIGNMENT - Basic HTML Setup`).
     * For entries that are not explicit "assignments," use the format: `#### Step [Number]: ACTIVITY NAME (Context/Activity Type)` (e.g., `#### Step 120: CREATING A FUNCTION (Independent Exercise)`).
 * **Cross-Referencing:** Link back to the main `README.md` at the top for a broader project overview.
+
+---
+
+#### 10. Collaborative Workflow & AI Interaction Protocol
+
+---
+
+These guidelines detail the interaction style and expected information exchange between the student and the AI assistant to ensure a smooth and effective learning process.
+
+* **10.1 Instructional Pacing:**
+    * The AI assistant will provide **one clear, actionable step at a time** and will **await the student's confirmation** of completion (or an update on any issue encountered) before outlining the next action. Multi-step processes will not be presented in advance unless explicitly requested for an overview.
+
+* **10.2 Assumption Checking & Environment Clarity:**
+    * The AI assistant will actively strive to **avoid making assumptions** about the student's file/folder structure, Git repository setup, or the exact state of their environment. If there is any ambiguity, the AI assistant will **ask clarifying questions** about the specific setup before providing instructions that depend on that understanding.
+
+* **10.3 Issue Reporting & Diagnosis:**
+    * If the student encounters an issue or something doesn't work as expected, they should provide **as much specific detail as possible**. This includes exact error messages, the precise behavior observed (e.g., in VS Code, browser, or terminal), and what was being attempted. This detailed feedback is crucial for efficient diagnosis.
+
+* **10.4 Handling Partial Input (Clipboard):**
+    * If a student's input (like large code blocks or document sections) appears truncated (e.g., due to clipboard limits), the student should **send the remainder of the content in subsequent message(s)**.
+    * If the AI assistant notices an input appears incomplete or abruptly cut off, it will **proactively inform the student** and ask them to send the rest.
+
+---
+
+#### 11. Supplementary Learning Documentation Standard
+
+---
+
+This section outlines the purpose and management of specific `SUPPLEMENTARY_LEARNING_*.md` files.
+
+* **11.1 Purpose of Supplementary Learning Files:**
+    * Files like `SUPPLEMENTARY_LEARNING_HTML_CSS.md` will serve as **centralized documents for tracking broader learning points, independent research, and significant supplemental insights** that emerge from relevant steps across the course. They compile these broader insights from various assignments into a coherent, dedicated narrative.
+
+* **11.2 Advisory Comment Workflow for Entries:**
+    * For any potential entry into a `SUPPLEMENTARY_LEARNING_*.md` file, the AI assistant will **make an advisory comment** proposing the entry and explaining *why* it is considered relevant. The **student will then make the final decision** on whether the proposed content warrants an entry.
+
+---
+
+#### 12. In-Code Notes & Commenting Standard (Project & Chat)
+
+---
+
+This section clarifies the definitive standards for in-code notes/comments, distinguishing between code best practices and necessary adaptations for chat interaction.
+
+* **12.1 Current In-Chat Notes Standard (Due to Display Limitations):**
+    * `<! -- sample -->` (with the space after `<!` and before `--`) is established as the **current working standard for all notes and comments during chat interactions**. This is a direct adaptation to address ongoing display issues with standard Markdown/HTML rendering in the chat interface.
+    * This standard will remain in place *until such time that standard methods* (e.g., `` for HTML or `//` for JavaScript) *cease to have display issues in the chat environment*.
+
+* **12.2 Project Code Best Practice:**
+    * Despite the chat workaround, the **ultimate best practice for in-code comments within your actual project files is standard HTML comments (``)** for HTML, and `//` for JavaScript (or `/* */` for multi-line comments). These are the industry-standard, clean, and semantically correct methods.
+
+* **12.3 Explicit Exclusion of `<script type="text/plain>`:**
+    * Per your instruction and the instructor's feedback, **`<script type="text/plain>` will definitively *not* be used** for notes or comments in any context within the project.
+
+---
