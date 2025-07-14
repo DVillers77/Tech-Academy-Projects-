@@ -32,12 +32,37 @@ These guidelines outline the collaborative workflow and documentation standards 
 
 ---
 
-#### 3. Course Content Interaction Protocol
+#### 3. Course Content Engagement & Enhanced Learning Workflow
 
 ---
 
-* For any course step involving video tutorials or hands-on instructions (e.g., "Watch this video and follow along," "Perform actions on your computer"), the student's primary responsibility is to **first engage with the content as instructed by the course**. This means watching the video in full and performing all demonstrated actions on their own machine to ensure active learning and skill development.
-* Only **after** the student has personally completed the course's required hands-on engagement for the step, should they then provide the AI assistant with video transcripts or content summaries for documentation and enhanced learning purposes. The AI assistant's assistance in generating documentation and explanations is a post-activity support function, not a replacement for the student's direct interaction with the course material.
+This protocol governs the interaction when new course material for a step is introduced, ensuring a comprehensive learning experience before formal documentation.
+
+* **3.1 Material Submission:**
+    * The student provides the new course material for a step. This can include:
+        * Text (e.g., direct copy/paste of course content).
+        * Video transcripts.
+        * Google Lens text extraction or summary text from images/diagrams.
+
+* **3.2 Initial AI Enhancement & Explanation:**
+    * Upon receiving the material, the AI assistant's immediate role is to provide **initial enhanced educational content** based on the provided material. This involves:
+        * **Explaining concepts** clearly, going beyond mere summaries, **including adherence to current best practices and modernization** (as per **Rule #2: Educational Approach**).
+        * **Suggesting approaches or patterns** and providing small, illustrative code snippets to clarify specific concepts (as per **Rule #1: Code Generation & Assistance Policy**).
+
+* **3.3 Collaborative Discussion & Understanding Confirmation:**
+    * **Following the AI's initial enhancement (3.2), the student and AI assistant will engage in a collaborative discussion.** The primary purpose of this phase is for the **student to confirm their understanding of the material and the AI's explanation.** The AI will await the student's lead or specific questions during this phase, ensuring the student's comprehension is verified.
+
+* **3.4 Optional Learning Expansion:**
+    * If, during the discussion (3.3), deeper understanding is required or desired by the student, this phase can involve:
+        * Performing relevant exercises.
+        * Simulated quizzes.
+        * More in-depth explanations of the material.
+
+* **3.5 Formal Documentation Preparation:**
+    * **Only after the student confirms their full understanding and the completion of any desired learning expansion (i.e., once the entire learning and discussion for the step is complete), will the AI assistant proceed with preparing the formal documentation** (`ASSIGNMENT_INDEX.md`, `README.md`) for the step. This ensures that the "Outcome" and "Reflection/Learning Note" accurately capture the student's mastery and any expanded knowledge gained.
+
+* **3.6 Important Note for Hands-on Steps:**
+    * If a course step explicitly requires hands-on engagement (e.g., "Watch this video and follow along," "Perform actions on your computer"), the student is still primarily responsible for engaging with that content on their own machine **prior to asking for the AI to prepare the formal documentation (3.5) for that step's "Outcome" or "Relevant Files."** The AI's role in providing initial enhanced learning and discussion (3.2, 3.3, 3.4) *precedes* the formal documentation phase, but does not replace the student's direct interaction with hands-on course material where specified.
 
 ---
 
@@ -184,7 +209,7 @@ These guidelines detail the interaction style and expected information exchange 
 This section outlines the purpose and management of specific `SUPPLEMENTARY_LEARNING_*.md` files.
 
 * **11.1 Purpose of Supplementary Learning Files:**
-    * Files like `SUPPLEMENTARY_LEARNING_HTML_CSS.md` will serve as **centralized documents for tracking broader learning points, independent research, and significant supplemental insights** that emerge from relevant steps across the course. They compile these broader insights from various assignments into a coherent, dedicated narrative.
+    * Files like `SUPPLEMENTARY_LEARNING_HTML_CSS.md` serve as **centralized documents that include all conceptual insights from assignments and non-assignments course material** that produce a **significant concept, best practice, or piece of independent research** arising from our chat discussions. They compile these broader, cumulative insights into a coherent, dedicated narrative.
 
 * **11.2 Advisory Comment Workflow for Entries:**
     * For any potential entry into a `SUPPLEMENTARY_LEARNING_*.md` file, the AI assistant will **make an advisory comment** proposing the entry and explaining *why* it is considered relevant. The **student will then make the final decision** on whether the proposed content warrants an entry.
