@@ -214,6 +214,8 @@ This section outlines the purpose and management of specific `SUPPLEMENTARY_LEAR
 * **11.2 Advisory Comment Workflow for Entries:**
     * For any potential entry into a `SUPPLEMENTARY_LEARNING_*.md` file, the AI assistant will **make an advisory comment** proposing the entry and explaining *why* it is considered relevant. The **student will then make the final decision** on whether the proposed content warrants an entry.
 
+* **11.3 Supplementary Learning Entry Titling:**
+    * For individual entries within `SUPPLEMENTARY_LEARNING_*.md` files, use the format: `#### Step [Number]: [Descriptive Title for Conceptual Insights]`. The descriptive title should clearly and concisely reflect the primary conceptual insight, best practice, or piece of independent research discussed, ensuring cross-referenceability with other documentation logs.
 ---
 
 #### 12. In-Code Notes & Commenting Standard (Project & Chat)
