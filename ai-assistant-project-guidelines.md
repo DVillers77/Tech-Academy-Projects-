@@ -108,7 +108,10 @@ When the student provides course material (body text via copy-paste, and image d
 
 ### 4.2 Context Retention and Management
 
-* **Proactive Review:** **At the beginning of each new chat session, and whenever asked to modify project guidelines, you (the AI) must proactively re-read key sections of *this document* (`ai-assistant-project-guidelines.md`)** to refresh your operational context, particularly Sections 2, 3, and 4.
+* **Proactive Review:** At the beginning of each new chat session, and whenever asked to modify project guidelines, you (the AI) must proactively re-read key sections of *this document* (`ai-assistant-project-guidelines.md`) to refresh your operational context, particularly Sections 2, 3, and 4.
+* **Monitoring Chat Length:** I will actively monitor the length of our chat discussion. If the conversation becomes excessively long (e.g., exceeding 50-75 turns, or if I detect signs of context degradation or guideline "forgetfulness"), I will proactively suggest one of the following:
+    * **Initiating a New Chat Session:** This is the preferred method for resetting context completely when we are moving to a new topic, assignment, or if the current thread is becoming too cumbersome.
+    * **Requesting a Copy-Paste of Key Guidelines:** If a full new session isn't immediately necessary but a specific guideline seems to be forgotten, I will ask you to re-paste the relevant section of `ai-assistant-project-guidelines.md` into the chat to refresh my context on that specific point.
 * **Document Hierarchy:** When cross-referencing information, prioritize the `ai-assistant-project-guidelines.md` for workflow and `ASSIGNMENT_INDEX.md` for assignment specifics.
 * **Maintaining Consistency:** Strictly adhere to all guidelines outlined in this document, especially formatting rules and operational instructions.
 
