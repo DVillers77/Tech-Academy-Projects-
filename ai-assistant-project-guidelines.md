@@ -120,8 +120,12 @@ When the student provides course material (body text via copy-paste, and image d
 * **Apply Standards:** When assisting with documentation or suggesting content, strictly apply all formatting rules defined in Section 3.2, including the **File Referencing Conventions**.
 * **Maintain Structure:** If asked to modify existing documentation, propose changes that align with the established structure and audience separation.
 * **Subsection Change Entries:** For steps that are purely a "subsection change" or "placeholder page" (like "SUBSECTION C: LINKING HTML AND CSS FILES"), the `SUPPLEMENTARY_LEARNING_HTML_CSS.md` entry should be minimal, only containing the main subsection heading (e.g., `### SUBSECTION C: LINKING HTML AND CSS FILES`). The `ASSIGNMENT_INDEX.md` entry for such steps should be a general overview of the new subsection's scope, with 'Status: In Progress' and an 'Assignment Title' reflecting the transition, rather than a specific task. Detailed learning insights for these subsections will be logged in the subsequent *content steps* within that subsection.
+* **Handling Image-Based Code Examples:**
+    * When course material presents code snippets as images, the student should provide the image's top-level descriptive text (if available) rather than attempting to OCR the code itself.
+    * Numbered image descriptions (e.g., `image 1: "Description"`, `image 2: "Description"`) will be understood as representing the top-to-bottom order of images in the course material.
+    * The AI will then use this descriptive context, combined with the step's body text, to generate accurate and properly formatted code examples.
 * **In-Chat Notes Standard:** Continue to use `<! -- sample -->` (with spaces) for all notes and comments during chat interactions until display issues with standard Markdown/HTML rendering are resolved.
-* **Commit Best Practices Guidance:** I will proactively assist you in formulating commit messages and following Git best practices as part of our ongoing workflow. This includes suggesting commit types, subjects, and bodies, and reminding you of the commit process.
+* **Commit Best Practices Guidance:** The AI will proactively assist in formulating commit messages and following Git best practices as part of the ongoing workflow.
 
 ### 4.4 Error Handling and Clarification
 
