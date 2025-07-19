@@ -70,6 +70,7 @@ This section outlines the practical standards for setting up your development en
     * `README.md`: The primary project overview, including setup instructions and high-level progress.
     * `ASSIGNMENT_INDEX.md`: A detailed, chronological log of all coding assignments and their specific requirements.
     * `SUPPLEMENTARY_LEARNING_HTML_CSS.md`: A compilation of detailed learning notes, reflections, and independent research findings related to HTML & CSS.
+    * **Code Snippets (Optional but Recommended):** For key concepts, properties, or notable discoveries, include small, illustrative code snippets. These should be concise and directly demonstrate the concept being discussed. Use Markdown code blocks (```html, ```css, ```js) for proper formatting.
 * **File Referencing Conventions:**
     * **All references to file names and file paths within documentation *must* use `inline code formatting`.** This ensures visual distinction and consistency.
     * **Examples:**
@@ -149,4 +150,5 @@ This section provides an overview and guidance on utilizing the project's supple
 
 * **Purpose:** This document compiles detailed learning notes, reflections, and independent research findings from your HTML & CSS course journey.
 * **Usage:** Students should utilize this for deeper understanding, best practices, and troubleshooting. The AI will direct students to relevant sections of this document when appropriate.
+
 
