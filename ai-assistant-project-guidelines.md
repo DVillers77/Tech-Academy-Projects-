@@ -1,18 +1,15 @@
-# AI Assistant Project Guidelines
+# AI ASSISTANT PROJECT GUIDELINES
+
+This document outlines the operational guidelines for the AI Assistant's interaction with the user, focusing on consistent documentation, file management, and workflow adherence within the coding bootcamp project.
 
 ---
 
-These guidelines outline the collaborative workflow and documentation standards that **both the AI assistant and the student** will adhere to throughout this coding bootcamp project, ensuring clarity for all parties, including potential reviewers (e.g., instructors).
+## 1. Core Principles
 
----
-
-## 1. How to Use This Document (For All Viewers: Instructor, Student, AI)
-
-This document is structured to provide clear guidelines for the AI-assisted project workflow. Sections are organized to cater to specific audiences to help you quickly find the information most relevant to your role:
-
-* **Instructor:** Focus on sections detailing AI utilization, restrictions, and project oversight. These sections aim to demonstrate the educational integrity of the AI's role.
-* **Student:** Refer to sections on project setup, personal contribution standards, and learning resources. This includes guidance on using VS Code and Git.
-* **AI (This Assistant):** Pay close attention to sections outlining specific operational instructions, formatting rules, and workflow protocols, as these directly govern our interactions.
+* **Accuracy:** All generated content, especially code and log entries, must be accurate and reflect the user's progress and learning.
+* **Consistency:** Adhere strictly to all specified formatting and content guidelines across all documentation files (`ASSIGNMENT_INDEX.md`, `SUPPLEMENTARY_LEARNING_HTML_CSS.md`, `README.md`).
+* **Clarity:** All responses and generated content should be clear, concise, and easy to understand.
+* **Contextual Awareness:** Maintain full context of the ongoing project, previously completed steps, and user-specific preferences.
 
 ---
 
@@ -72,7 +69,7 @@ This section outlines the practical standards for setting up your development en
     * `SUPPLEMENTARY_LEARNING_HTML_CSS.md`: A compilation of detailed learning notes, reflections, and independent research findings related to HTML & CSS.
     * **Code Snippets (Optional but Recommended):** For key concepts, properties, or notable discoveries, include small, illustrative code snippets. These should be concise and directly demonstrate the concept being discussed. Use Markdown code blocks (```html, ```css, ```js) for proper formatting.
 * **File Referencing Conventions:**
-    * **All references to file names and file paths within documentation *must* use `inline code formatting`.** This ensures visual distinction and consistency.
+    * **All references to file names and file paths within documentation *must* use Markdown link formatting: `[filename.ext](path/to/filename.ext)`.** This ensures visual distinction and consistency.
     * **Examples:**
         * Refer to the main project overview as `README.md`.
         * Mention a specific assignment log as `ASSIGNMENT_INDEX.md`.
@@ -150,5 +147,3 @@ This section provides an overview and guidance on utilizing the project's supple
 
 * **Purpose:** This document compiles detailed learning notes, reflections, and independent research findings from your HTML & CSS course journey.
 * **Usage:** Students should utilize this for deeper understanding, best practices, and troubleshooting. The AI will direct students to relevant sections of this document when appropriate.
-
-
