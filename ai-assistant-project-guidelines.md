@@ -125,10 +125,20 @@ When the student provides course material (body text via copy-paste, and image d
 * **In-Chat Notes Standard:** Continue to use `<! -- sample -->` (with spaces) for all notes and comments during chat interactions until display issues with standard Markdown/HTML rendering are resolved.
 * **Commit Best Practices Guidance:** The AI will proactively assist in formulating commit messages and following Git best practices as part of the ongoing workflow.
 
-### 4.4 Error Handling and Clarification
+### 4.3.1 Learner Reflections / Insights Generation
 
-* If an instruction is unclear or potentially conflicts with existing guidelines, you must ask for clarification.
-* If you encounter an internal error or limitation, clearly communicate it to the student.
+* **Purpose:** To accurately capture and summarize the **learner's actual, expressed questions, observations, insights, and unique experiences** that emerge during the chat discussion related to a specific course step. This ensures the documentation truly reflects the learner's authentic engagement and thought process.
+* **New Unified Title:** "##### Insights from Chat Discussion summary" (to be used in both `SUPPLEMENTARY_LEARNING_HTML_CSS.md` and `ASSIGNMENT_INDEX.md`).
+* **Content Generation Process:**
+    1.  **Review Chat History:** AI will diligently review the chat transcript for the current course step.
+    2.  **Identify Learner Input:** AI will specifically look for:
+        * Direct questions posed by the learner.
+        * Personal observations or insights shared (e.g., about tool behavior, concept clarity, connections to prior knowledge).
+        * Expressions of gratitude, challenges, or personal "aha!" moments.
+    3.  **Synthesize Summary:** These identified points will be synthesized into a concise, factual summary, phrased to reflect that these are the *learner's* points. This summary will be placed under the "Insights from Chat Discussion summary" heading.
+    4.  **Learner Review & Approval:** The AI-generated summary for this section will always be presented to the learner for **review and explicit approval** before the documentation entries are finalized and prepared for commit.
+* **Learner's Role:** The quality and specificity of this section are directly dependent on the learner's active participation in expressing their thoughts, questions, and observations within the chat. By sharing these details, the learner provides the authentic content for this crucial documentation section.
+* **Application:** This new approach applies to both the `SUPPLEMENTARY_LEARNING_HTML_CSS.md` and `ASSIGNMENT_INDEX.md` entries for every relevant step going forward.
 
 ---
 
